@@ -95,6 +95,7 @@ export const reviewsData:Card[] = [
 
 export default function Home() {
   return (
+    <>
     <section>
       <HomePage/>
       <Brands/>
@@ -103,6 +104,7 @@ export default function Home() {
       <HappyCustomers cards={reviewsData}/>
       <Footer/>
     </section>
+    </>
   )
 }
 

@@ -1,3 +1,4 @@
+import React from "react";
 import Brands from "@/components/Brands";
 import HomePage from "@/components/HomePage";
 
@@ -7,7 +8,7 @@ import DressStyle from "@/components/DressStyle";
 import HappyCustomers, { Card } from "@/components/HappyCustomers";
 import Footer from "@/components/Footer";
 
-export const newArrivalsData: Product[] = [
+const newArrivalsData: Product[] = [
   {
     id: 1,
     name: "T-shirt with Tape Details",
